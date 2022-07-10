@@ -1,6 +1,7 @@
 # LC6464.ASPNET.HttpConnectionInfo
 
 [NuGet 包](https://www.nuget.org/packages/LC6464.ASPNET.HttpConnectionInfo "NuGet.Org")
+[GitHub 项目](https://github.com/lc6464/LC6464.ASPNET.HttpConnectionInfo "GitHub.Com")
 
 在 ASP.NET 中快速获取当前 HTTP 连接的信息。
 
@@ -15,7 +16,7 @@
 		<!-- 一些东西 -->
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="LC6464.ASPNET.HttpConnectionInfo" Version="1.0.0.0" />
+		<PackageReference Include="LC6464.ASPNET.HttpConnectionInfo" Version="1.0.1" />
 		<!-- PackageReference，请使用 Visual Studio 或 dotnet cli 等工具添加 -->
 	</ItemGroup>
 	<ItemGroup>

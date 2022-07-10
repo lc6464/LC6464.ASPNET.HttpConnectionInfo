@@ -6,7 +6,7 @@ public class HttpConnectionInfo : IHttpConnectionInfo {
 	/// <summary>
 	/// 使用 <see cref="IHttpContextAccessor"/> 初始化所有属性的构造函数。
 	/// </summary>
-	/// <param name="accessor">用于初始化所有属性的 <see cref="IHttpContextAccessor"/>.</param>
+	/// <param name="accessor">用于初始化所有属性的 <see cref="IHttpContextAccessor"/></param>
 	public HttpConnectionInfo(IHttpContextAccessor accessor) {
 		var context = accessor.HttpContext!;
 		var connection = context.Connection;
