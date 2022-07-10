@@ -1,4 +1,4 @@
-﻿namespace LC.ASPNET.HttpConnectionInfo;
+﻿namespace LC6464.ASPNET.HttpConnectionInfo;
 /// <summary>
 /// 当前 HTTP 连接的信息。
 /// </summary>

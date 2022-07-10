@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LC.ASPNET.HttpConnectionInfo", "LC.ASPNET.HttpConnectionInfo.csproj", "{5F2C6166-11EF-4E31-9782-F589A14A09E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LC6464.ASPNET.HttpConnectionInfo", "LC6464.ASPNET.HttpConnectionInfo.csproj", "{5F2C6166-11EF-4E31-9782-F589A14A09E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

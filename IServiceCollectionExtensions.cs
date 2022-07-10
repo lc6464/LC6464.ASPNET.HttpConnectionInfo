@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace LC.ASPNET.HttpConnectionInfo;
+namespace LC6464.ASPNET.HttpConnectionInfo;
 /// <summary>
 /// 为 <see cref="IServiceCollection">builder.Services</see> 添加扩展方法。
 /// </summary>
