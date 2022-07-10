@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<SignAssembly>True</SignAssembly>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Description>在 ASP.NET 中用于快速获取当前 HTTP 连接信息的服务。</Description>
+		<Copyright>Copyright © 2022 LC. All rights reserved.</Copyright>
+		<PackageProjectUrl>https://github.com/lc6464/LC.ASPNET.HttpConnectionInfo</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/lc6464/LC.ASPNET.HttpConnectionInfo</RepositoryUrl>
+		<PackageTags>ASP.NET;ASP.NET Core;HTTP;HTTP Connection;Connection Info</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Authors>LC</Authors>
+		<Version>1.0.0.0</Version>
+		<PackageReleaseNotes>初步实现功能。</PackageReleaseNotes>
+		<PackageLicenseExpression> Apache-2.0</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="System.Net" />
+		<Using Include="Microsoft.AspNetCore.Http" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
