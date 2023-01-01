@@ -22,22 +22,27 @@ public class HttpConnectionInfo : IHttpConnectionInfo {
 	/// 客户端当前使用的 IP 地址，可能为 <see langword="null"/>.
 	/// </summary>
 	public IPAddress? RemoteAddress { get; init; }
+	
 	/// <summary>
 	/// 客户端当前使用的端口。
 	/// </summary>
 	public int RemotePort { get; init; }
+	
 	/// <summary>
 	/// 服务端当前使用的 IP 地址。
 	/// </summary>
 	public IPAddress LocalAddress { get; init; }
+	
 	/// <summary>
 	/// 服务端当前使用的端口。
 	/// </summary>
 	public int LocalPort { get; init; }
+	
 	/// <summary>
 	/// 当前连接使用的 HTTP 协议。
 	/// </summary>
 	public string Protocol { get; init; }
+
 	/// <summary>
 	/// 当前连接的 ID.
 	/// </summary>
